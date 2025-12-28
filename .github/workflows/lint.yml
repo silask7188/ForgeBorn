@@ -19,7 +19,7 @@ jobs:
         run: npm ci
 
       - name: Check Formatting
-        run: npx prettier --check "kubejs/**/*" "!kubejs/assets/**" "!kubejs/config/**"
+        run: npx prettier --check "kubejs/**/*" "!kubejs/assets/**" "!kubejs/config/**" "!kubejs/**/*.txt"
       
       - name: Check Code Quality
         run: npx eslint "kubejs/**/*.js" --ignore-pattern "kubejs/assets/**"
