@@ -1,6 +1,6 @@
 {
-    "parent":"item/generated",
+    "parent": "item/generated",
     "textures": {
-      "layer0":"gtceu:item/material_sets/infinity/rod_long"
+        "layer0": "gtceu:item/material_sets/infinity/rod_long"
     }
-  }
+}
