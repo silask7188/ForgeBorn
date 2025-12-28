@@ -20,6 +20,6 @@ jobs:
 
       - name: Check Formatting
         run: npx prettier --check "kubejs/**/*" "!kubejs/assets/**"
-
+      
       - name: Check Code Quality
         run: npx eslint "kubejs/**/*.js" --ignore-pattern "kubejs/assets/**"
